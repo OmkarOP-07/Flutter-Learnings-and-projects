@@ -12,7 +12,14 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: const Text("Namaste Dosto", style: TextStyle(fontSize: 10)),
+          title: const Text(
+            "Love you Baby",
+            style: TextStyle(
+              fontSize: 30,
+              fontFamily: 'Pasifico',
+              decoration: TextDecoration.lineThrough,
+            ),
+          ),
           backgroundColor: Colors.cyanAccent[700],
           centerTitle: true,
         ),
