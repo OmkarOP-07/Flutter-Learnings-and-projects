@@ -1,0 +1,47 @@
+# 📦 Project Setup
+flutter create my_app                # Create a new Flutter project
+flutter create .                     # Create project in current folder
+
+# ▶️ Run & Debug
+flutter run                          # Run app on connected device/emulator
+flutter run -d chrome                # Run app on Chrome (web)
+flutter devices                      # List connected devices
+flutter emulators                    # List available emulators
+flutter emulators --launch <id>      # Launch specific emulator
+
+# ⚡ Hot Reload & Restart (inside flutter run)
+r                                    # Hot reload
+R                                    # Hot restart
+
+# 📥 Dependencies
+flutter pub get                      # Install dependencies
+flutter pub upgrade                  # Upgrade dependencies
+flutter pub upgrade --major-versions # Upgrade with breaking versions
+flutter pub outdated                 # Show outdated packages
+
+# 🛠️ Clean & Repair
+flutter clean                        # Remove build cache
+flutter pub cache repair             # Repair pub package cache
+
+# 📦 Build
+flutter build apk                    # Build Android APK
+flutter build appbundle              # Build Android App Bundle (.aab)
+flutter build ios                    # Build iOS app (Mac only)
+flutter build web                    # Build web release
+flutter build windows                # Build Windows desktop app
+flutter build macos                  # Build macOS desktop app
+flutter build linux                  # Build Linux desktop app
+
+# 🔍 Doctor & SDK
+flutter doctor                       # Check setup issues
+flutter doctor -v                    # Detailed doctor info
+flutter upgrade                      # Upgrade Flutter SDK
+flutter downgrade                    # Downgrade to previous version
+flutter channel                      # List Flutter channels
+flutter channel stable               # Switch to stable channel
+flutter channel beta                 # Switch to beta channel
+flutter precache                     # Pre-download binaries (web/desktop)
+
+# 🧪 Testing
+flutter test                         # Run unit/widget tests
+flutter drive                        # Run integration tests
